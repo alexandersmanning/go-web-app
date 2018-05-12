@@ -1,0 +1,30 @@
+@import "main";
+
+.app {
+  @include standard-text();
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.app__compressed {
+  left: 300px;
+}
+
+.app__navigation {
+  height: 40px;
+
+  display: flex;
+  padding: 10px 15px;
+}
+
+.app__body {
+  padding: 10px 15px;
+}
+
+.app__sidebar-toggle {
+  @include standard-link();
+}
+
